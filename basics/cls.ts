@@ -22,6 +22,21 @@ class Vehicle {
 }
 
 
+interface people{
+    name:string;
+    age:number;
+}
+
+
+class Person implements people{
+   
+    private function summary(name:string,age:number) {
+        console.log(name,age);
+        
+    }
+}
+
+
 const color:string = "Black"
 const weight:number = 3000
 const price:number = 1500000
