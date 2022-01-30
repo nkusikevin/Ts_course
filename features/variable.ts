@@ -33,4 +33,3 @@ console.log(cars.broken);
 
 }
 
-printCar(benz)
