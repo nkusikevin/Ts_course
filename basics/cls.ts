@@ -22,17 +22,14 @@ class Vehicle {
 }
 
 
-interface people{
-    name:string;
-    age:number;
+interface People{
+    summary():void
 }
 
 
-class Person implements people{
-   
-    private function summary(name:string,age:number) {
-        console.log(name,age);
-        
+class Person implements People{
+    public summary():void{
+        console.log("Okay"); 
     }
 }
 
