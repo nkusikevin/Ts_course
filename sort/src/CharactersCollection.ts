@@ -1,5 +1,5 @@
 
-export class CharactersCollection{
+export  class CharactersCollection{
     constructor(public data: string){}
 
     compare(leftIndex: number, rightIndex: number): boolean {
